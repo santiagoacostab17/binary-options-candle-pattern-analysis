@@ -19,13 +19,13 @@ The goal is to identify statistically significant **price patterns** using high-
 **Upward Pattern (Bullish Equivalent)**
 
 - Current 2-min candle closes above previous high  
-- Candle body dominates shadows (body > upper & lower wicks)  
+- Candle body dominates upper wick  
 - Detection triggers evaluation of next 2-min interval outcome  
 
 **Downward Pattern (Bearish Equivalent)**
 
 - Current 2-min candle closes below previous low  
-- Candle body dominates shadows  
+- Candle body dominates lower wick 
 - Detection triggers evaluation of next 2-min interval outcome  
 
 **Execution Logic:** For each detected pattern, the subsequent interval is analyzed to evaluate pattern reliability.
@@ -62,10 +62,10 @@ The goal is to identify statistically significant **price patterns** using high-
 
 | Metric | Value |
 |--------|-------|
-| Patterns Detected | 433,334 |
-| Patterns “Success” | 24,330 |
-| Patterns “Failure” | 27,650 |
-| Pattern Accuracy | 46.81% |
+| Patterns Detected | 81,938 |
+| Patterns “Success” | 41,908 |
+| Patterns “Failure” | 40,030 |
+| Pattern Accuracy | 51.15% |
 
 **Interpretation:**  
 - High-frequency price series are **noise-dominated**  
